@@ -4,9 +4,12 @@ class Pessoa {
     var nome: String = "carlos"
     var cpf: String = "123.456.789-22"
 
-    inner class Endereco{
-        var rua: String = "Rua teste"
-    }
+//    inner class Endereco{
+//        var rua: String = "Rua teste"
+//    }
+
+
+    private set
 }
 
 fun main() {
@@ -14,6 +17,6 @@ fun main() {
 
     println(carlos.nome)
     println(carlos.cpf)
-    println(carlos.Endereco().rua)
+//    println(carlos.Endereco().rua)
 
 }
